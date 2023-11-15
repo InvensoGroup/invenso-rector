@@ -1,2 +1,3 @@
-# invenso-rector
-ApiPlatform annotations to attributes
+# Invenso Rector
+
+## Getting started

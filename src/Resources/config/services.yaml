@@ -1,0 +1,13 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  Invenso\Rector\:
+    resource: "../../"
+    exclude:
+      - "../../InvensoRectorBundle.php"
+      - "../../DependencyInjection/"
+      - "../../Services/"
+      - "../../Tests/"
+      - "../../Config/"
