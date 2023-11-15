@@ -1,0 +1,48 @@
+{
+    "name": "invenso/rector",
+    "description": "Invenso Rector Bundle",
+    "version": "0.1.0",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.0",
+        "symfony/config": "5.4.* | ^6.0",
+        "symfony/console": "5.4.* | ^6.0",
+        "symfony/dependency-injection": "5.4.* | ^6.0",
+        "symfony/http-kernel": "5.4.* | ^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Invenso\\Rector\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Invenso\\Rector\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.16",
+        "phpstan/phpstan": "^1.10",
+        "rector/rector": "^0.18.8"
+    },
+    "homepage": "https://www.invenso.nl",
+    "authors": [
+        {
+            "name": "Jeroen Aalders",
+            "email": "jeroen.aalders@invenso.nl"
+        }
+    ],
+    "support": {
+        "email": "info@invenso.nl"
+    },
+    "scripts": {
+        "php-cs-check": "php vendor/bin/php-cs-fixer fix -v --dry-run --diff src/",
+        "php-cs-fix": "php vendor/bin/php-cs-fixer fix -vvv src/",
+        "phpstan": "php vendor/bin/phpstan analyse -n --no-progress --error-format=table src/"
+    }
+}

@@ -1,0 +1,13 @@
+parameters:
+    level: max
+    reportUnmatchedIgnoredErrors: false
+    bootstrapFiles:
+        - vendor/autoload.php
+    scanDirectories:
+        - vendor/
+    ignoreErrors:
+        - "#Method [a-zA-Z0-9\\_\\\\:\\(\\)]+ has parameter \\$[a-zA-Z0-9_]+ with no value type specified in iterable type array#"
+        - "#Property [a-zA-Z0-9\\$\\_\\\\:\\(\\)]+ type has no value type specified in iterable type array#"
+    excludePaths:
+        analyse:
+            - vendor/
