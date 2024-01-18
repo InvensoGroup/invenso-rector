@@ -1,7 +1,7 @@
 {
     "name": "invenso/rector",
     "description": "Invenso Rector Bundle to update API Platform Annotations to Attributes",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "proprietary",
     "require": {
         "php": "^8.0",
