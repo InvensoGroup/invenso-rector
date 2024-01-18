@@ -26,5 +26,5 @@ final class ApiPlatformSetList implements SetListInterface
     /**
      * @var string
      */
-    public const ANNOTATIONS_TO_ATTRIBUTES = __DIR__ . '/../config/sets/api-platform-annotations-to-attributes.php';
+    public const ANNOTATIONS_TO_ATTRIBUTES = __DIR__ . '/../Config/Sets/api-platform-annotations-to-attributes.php';
 }
