@@ -88,3 +88,30 @@ Now you can run the following command to execute the rector script
 ```shell
 composer rector process src
 ```
+
+
+
+install with docker composer
+
+```bash
+docker run -ti -v ./:/app composer:latest composer install
+```
+
+
+### PHP CS Fix
+
+```bash
+docker run -ti -v ./:/app composer:latest composer php-cs-fix
+```
+
+### PHPstan
+
+```bash
+docker run -ti -v ./:/app composer:latest composer phpstan
+```
+
+### Find deprecations
+
+```bash
+docker run -ti -v ./:/app composer:latest composer outdated
+```
