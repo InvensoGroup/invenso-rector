@@ -16,12 +16,10 @@ declare (strict_types=1);
 
 namespace Invenso\Rector\Set;
 
-use Rector\Set\Contract\SetListInterface;
-
 /**
  * @api
  */
-final class ApiPlatformSetList implements SetListInterface
+final class ApiPlatformSetList
 {
     /**
      * @var string
