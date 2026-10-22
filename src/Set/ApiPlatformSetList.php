@@ -2,17 +2,16 @@
 
 /**
  * Copyright (c) 2023 Invenso® - All Rights Reserved.
- * Contact: info@invenso.nl
+ * Contact: info@invenso.nl.
  *
  * Permission to use, copy, modify, and distribute this software and its
  * documentation without a signed licensing agreement is prohibited.
  *
  * You should have received a copy of the license with this file.
  * If not, please write to: info@invenso.nl, or visit: https://www.invenso.nl
- *
  */
 
-declare (strict_types=1);
+declare(strict_types=1);
 
 namespace Invenso\Rector\Set;
 
