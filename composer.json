@@ -1,14 +1,14 @@
 {
     "name": "invenso/rector",
     "description": "Invenso Rector Bundle to update API Platform Annotations to Attributes",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "proprietary",
     "require": {
         "php": "^8",
-        "symfony/config": "5.4.* | ^6",
-        "symfony/console": "5.4.* | ^6",
-        "symfony/dependency-injection": "5.4.* | ^6",
-        "symfony/http-kernel": "5.4.* | ^6"
+        "symfony/config": "5.4.* | ^6 | ^7.0",
+        "symfony/console": "5.4.* | ^6 | ^7.0",
+        "symfony/dependency-injection": "5.4.* | ^6 | ^7.0",
+        "symfony/http-kernel": "5.4.* | ^6 | ^7.0"
     },
     "autoload": {
         "psr-4": {
